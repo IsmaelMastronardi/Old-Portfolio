@@ -70,8 +70,6 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [https://ismaelmastronardi.github.io/]
 
-Test
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
