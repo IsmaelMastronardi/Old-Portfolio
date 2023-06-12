@@ -1,0 +1,175 @@
+.mainscreen {
+  background-image: url("../assets/images/Headline/header-illsutration-mobile@2x.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 50%;
+  font-family: 'Inter', sans-serif;
+  line-height: 130%;
+  color: rgba(23, 43, 77, 1);
+  font-size: 40px;
+  min-width: 327px;
+  min-height: 211px;
+  margin-bottom: 3.95%;
+  margin-top: 16.8%;
+  overflow-wrap: break-word;
+}
+
+.titleSpan {
+  color: rgba(54, 179, 126, 1);
+}
+
+.portafolioInfo {
+  width: 80%;
+  line-height: 140%;
+  color: rgba(23, 43, 77, 1);
+  font-size: 20px;
+  min-width: 327px;
+  min-height: 164px;
+  margin-top: 0;
+  margin-bottom: 5%;
+  overflow-wrap: break-word;
+}
+
+.downArrow {
+  background-image: url("../assets/images/Headline/Disabled.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: white;
+  border: none;
+  height: 43px;
+  width: 43px;
+  padding: 0;
+  margin-bottom: 63px;
+}
+
+.socialMediaIcons {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 21%;
+  margin-top: 0;
+  height: 30px;
+}
+
+.mediumIcon {
+  margin-top: 4px;
+}
+
+.socialMediaListItem {
+  width: 30px;
+}
+
+.mediumIcon:hover {
+  height: 22px;
+}
+
+.socialMediaImg:hover {
+  height: 26px;
+}
+
+.desktopNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.desktopNavList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.desktopNavListItem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.desktopNavLink {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.desktopNavLink:link,
+.desktopNavLink:visited,
+.desktopNavLink:hover,
+.desktopNavLink:active {
+  color: rgba(23, 43, 77, 1);
+}
+
+@media only screen and (min-width: 768px) {
+  .toolbar {
+    display: none;
+  }
+
+  .title {
+    margin-top: 40px;
+    min-height: 0;
+    min-width: 0;
+    height: 112px;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+
+  .worksBreak,
+  .titleBreak {
+    display: none;
+  }
+
+  .portafolioInfo {
+    min-height: 0;
+    min-width: 0;
+    height: 110px;
+    margin-bottom: 24px;
+    width: 60%;
+  }
+
+  .mainscreen {
+    background-image: url(../assets/images/Headline/Header-llustration-desktop@2x.png);
+    background-size: 100%;
+    height: 800px;
+  }
+
+  .socialMediaIcons {
+    margin-bottom: 0;
+  }
+
+  .downArrow {
+    margin-top: 74px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .desktopNav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .mainscreen {
+    height: 1100px;
+  }
+
+  .title {
+    margin-top: 120px;
+  }
+}

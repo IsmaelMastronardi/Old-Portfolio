@@ -1,0 +1,213 @@
+.aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.imgDivB,
+.imgDiv {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.imgDiv {
+  margin-top: 250px;
+}
+
+.imgDivB {
+  margin-top: -50px;
+}
+
+.aboutMeImgB {
+  float: right;
+}
+
+.aboutMeImgA {
+  float: left;
+}
+
+.aboutMeImgADesktopB,
+.aboutMeImgADesktop {
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutMeSection {
+    margin-top: 200px;
+  }
+
+  .imgDiv {
+    margin-top: 250px;
+  }
+
+  .imgDivB {
+    margin-top: -40px;
+  }
+
+  .aboutMeImgB,
+  .aboutMeImgA {
+    display: none;
+  }
+
+  .aboutMeImgADesktop {
+    width: 150px;
+    height: auto;
+    float: left;
+  }
+
+  .aboutMeImgADesktopB {
+    width: 150px;
+    height: auto;
+    float: right;
+  }
+
+  .infoAboutMe {
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .imgDiv {
+    margin-top: 150px;
+  }
+
+  .imgDivB {
+    margin-top: -90px;
+  }
+
+  .aboutMeImgADesktop {
+    width: 200px;
+  }
+
+  .aboutMeImgADesktopB {
+    width: 200px;
+  }
+}
+
+.aboutMeArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.aboutMeTitle {
+  font-family: "Inter", sans-serif;
+  color: rgba(23, 43, 77, 1);
+  font-size: 40px;
+  min-width: 327px;
+  margin-bottom: 6.3%;
+}
+
+.infoAboutMe {
+  flex: 1;
+  width: 80%;
+  line-height: 140%;
+  color: rgba(23, 43, 77, 1);
+  font-size: 20px;
+  min-width: 327px;
+  min-height: 164px;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+.getResumeButton {
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(54, 179, 127, 1);
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px;
+  flex: 1;
+  transition: 0.15s;
+}
+
+.getResumeButton:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.getResumeButton:active {
+  background-color: rgba(0, 133, 82, 1);
+}
+
+.technologyList {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  gap: 20px;
+}
+
+.techItem {
+  width: 327px;
+  height: 316px;
+  margin-top: 24px;
+  background-color: rgba(235, 240, 238, 1);
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(193, 199, 208, 1);
+}
+
+.languaguesTitle {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+  margin-top: -20px;
+  margin-bottom: 0;
+}
+
+.languagesIcon {
+  margin-top: 40px;
+}
+
+.languagesIcon:hover {
+  margin-top: 0;
+  margin-bottom: 40px;
+  transform: rotate(3.142rad);
+}
+
+.languagesList {
+  flex: 1;
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.aboutMeListButtons {
+  color: rgba(54, 179, 126, 1);
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  border-width: 0;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.aboutMeListButtons:hover {
+  box-shadow: 0 6px 12px rgba(149, 163, 155, 0.26);
+}
+
+.aboutMeListButtons:active {
+  background-color: rgba(54, 179, 127, 1);
+  color: white;
+}

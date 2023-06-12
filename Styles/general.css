@@ -1,0 +1,17 @@
+a,
+button,
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+a,
+a:active {
+  text-decoration: none;
+}

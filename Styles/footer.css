@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 29px;
+}
+
+.myGmail {
+  font-family: 'Inter', sans-serif;
+  color: rgba(23, 43, 77, 1);
+  font-size: 20px;
+}
+
+.footerImgDiv {
+  position: absolute;
+  width: 100%;
+  margin-top: -80px;
+}
+
+.footerImgA {
+  float: right;
+}
+
+@media only screen and (min-width: 768px) {
+  .myGmail {
+    display: none;
+  }
+
+  .footerImgA {
+    display: none;
+  }
+}
