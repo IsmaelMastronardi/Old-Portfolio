@@ -1,0 +1,17 @@
+.toolbar {
+  display: flex;
+  height: 4.8%;
+}
+
+.hamburgerMenu {
+  background-image: url(assets/images/Toolbox/Icon\ -\ Menu.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  border: none;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 20%;
+  left: 85%;
+}
