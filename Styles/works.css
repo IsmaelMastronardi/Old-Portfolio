@@ -2,6 +2,7 @@
   display: grid;
   justify-content: center;
   justify-items: center;
+  padding-top: 30px;
 }
 
 .workSectionTitle {
