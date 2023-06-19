@@ -5,18 +5,19 @@ function removeMenu() {
 }
 function addListItem(menuList, listText, gotToSection) {
   const listItem = document.createElement('li');
-  const listItemAnchor = document.createElement('a')
+  const listItemAnchor = document.createElement('a');
+  listItemAnchor.classList.add('mobileMenulistItem');
   const text = document.createTextNode(listText);
-  listItem.classList.add('mobileMenulistItem');
   listItem.addEventListener('click', removeMenu);
   listItemAnchor.href = gotToSection;
-  listItemAnchor.appendChild(text)
+  listItemAnchor.appendChild(text);
   listItem.appendChild(listItemAnchor);
   menuList.appendChild(listItem);
 }
 function createMenuElements(menu) {
-  const mobileExitButton = document.createElement('button')
-  mobileExitButton.classList.add('mobileExitButton')
+  const mobileExitButton = document.createElement('button');
+  mobileExitButton.classList.add('mobileExitButton');
+  mobileExitButton.addEventListener('click', removeMenu);
   const menuList = document.createElement('ul');
   menuList.classList.add('mobileMenuList');
   addListItem(menuList, 'Portfolio', '#myWorks');

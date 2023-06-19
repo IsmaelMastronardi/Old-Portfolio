@@ -19,10 +19,12 @@
   font-family: 'Inter';
   font-weight: 600;
   line-height: 44px;
+  color: black;
 }
 
 .mobileExitButton {
   background-image: url(../assets/images/Toolbox/Icon\ -\ Cancel.png);
+  background-position: center;
   background-color: white;
   border: none;
   margin-left: 90%;
@@ -31,3 +33,10 @@
   height: 20px;
   padding: 0;
 }
+.mobileMenulistItem:link,
+.mobileMenulistItem:visited,
+.mobileMenulistItem:hover,
+.mobileMenulistItem:active {
+  text-decoration: none;
+}
+
