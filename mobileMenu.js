@@ -7,7 +7,7 @@ function removeMenu() {
 function addListItem(menuList, listText) {
   const listItem = document.createElement('li');
   const text = document.createTextNode(listText);
-  listItem.classList.add('')
+  listItem.classList.add('mobileMenulistItem')
   listItem.addEventListener('click', removeMenu);
   listItem.appendChild(text);
   menuList.appendChild(listItem);
