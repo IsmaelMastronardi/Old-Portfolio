@@ -2,6 +2,7 @@ const hamburgerButton = document.querySelector('#mobileMenuBtn');
 function removeMenu() {
   const menu = document.querySelector('.mobileMenuDiv');
   menu.remove();
+  document.body.style.overflow = 'auto';
 }
 function addListItem(menuList, listText, gotToSection) {
   const listItem = document.createElement('li');
@@ -27,6 +28,7 @@ function createMenuElements(menu) {
   menu.appendChild(menuList);
 }
 function display() {
+  document.body.style.overflow = 'hidden';
   const menu = document.createElement('div');
   menu.classList.add('mobileMenuDiv');
   document.body.appendChild(menu);
