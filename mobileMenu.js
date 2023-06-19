@@ -6,8 +6,9 @@ function removeMenu() {
 }
 function addListItem(menuList, listText, gotToSection) {
   const listItem = document.createElement('li');
+  listItem.classList.add('mobileMenulistItem');
   const listItemAnchor = document.createElement('a');
-  listItemAnchor.classList.add('mobileMenulistItem');
+  listItemAnchor.classList.add('mobileMenulistItemAnchor');
   const text = document.createTextNode(listText);
   listItem.addEventListener('click', removeMenu);
   listItemAnchor.href = gotToSection;
