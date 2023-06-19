@@ -16,7 +16,7 @@
 
 .mobileMenulistItem {
   font-size: 32px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   line-height: 44px;
   color: black;
@@ -33,10 +33,10 @@
   height: 20px;
   padding: 0;
 }
+
 .mobileMenulistItem:link,
 .mobileMenulistItem:visited,
 .mobileMenulistItem:hover,
 .mobileMenulistItem:active {
   text-decoration: none;
 }
-
