@@ -1,17 +1,24 @@
 const hamburgerButton = document.querySelector('#mobileMenuBtn');
 
-function createList(menu) {
-  const menuList = document.createElement('ul');
-  addListItem(menuList, 'Contanc');
-  addListItem(menuList, 'info');
-  addListItem(menuList, 'about');
-  menu.appendChild(menuList);
+function removeMenu() {
+  const menu = document.querySelector('.mobileMenuDiv');
+  menu.remove();
 }
 function addListItem(menuList, listText) {
   const listItem = document.createElement('li');
   const text = document.createTextNode(listText);
+  listItem.classList.add('')
+  listItem.addEventListener('click', removeMenu);
   listItem.appendChild(text);
   menuList.appendChild(listItem);
+}
+function createList(menu) {
+  const menuList = document.createElement('ul');
+  menuList.classList.add('mobileMenuList')
+  addListItem(menuList, ' Portfolio');
+  addListItem(menuList, 'About');
+  addListItem(menuList, 'Contact');
+  menu.appendChild(menuList);
 }
 function display() {
   const menu = document.createElement('div');
