@@ -1,0 +1,46 @@
+.mobileMenuDiv {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+}
+
+.mobileMenuList {
+  list-style: none;
+}
+
+.mobileMenulistItem {
+  margin-bottom: 40px;
+}
+
+.mobileMenulistItemAnchor {
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+  color: black;
+}
+
+.mobileExitButton {
+  background-image: url(../assets/images/Toolbox/Icon\ -\ Cancel.png);
+  background-position: center;
+  background-color: white;
+  border: none;
+  margin-left: 90%;
+  margin-top: 40px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.mobileMenulistItem:link,
+.mobileMenulistItem:visited,
+.mobileMenulistItem:hover,
+.mobileMenulistItem:active {
+  text-decoration: none;
+}
