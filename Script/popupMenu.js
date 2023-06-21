@@ -18,17 +18,20 @@ const works = [{
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
   technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  'link to live version': '',
-  'link to source': '',
+  'link to live version': 'https://ismaelmastronardi.github.io/',
+  'link to source': 'https://github.com/IsmaelMastronardi/IsmaelMastronardi.github.io',
   identification: '#work1',
 },
 {
   name: 'Multi-Post Stories Gain+Glory',
   nameMenu: 'Keeping track of hundreds of components',
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it 1960s. 
+    <br class="popupMenuMobileBreak"/><br class="popupMenuMobileBreak"/>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it 1960s.
   `,
   descriptionB: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -39,17 +42,20 @@ const works = [{
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
   technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  'link to live version': '',
-  'link to source': '',
+  'link to live version': 'https://ismaelmastronardi.github.io/',
+  'link to source': 'https://github.com/IsmaelMastronardi/IsmaelMastronardi.github.io',
   identification: '#work2',
 },
 {
   name: 'Multi-Post Stories Gain+Glory',
   nameMenu: 'Keeping track of hundreds of components',
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it 1960s. 
+    <br class="popupMenuMobileBreak"/><br class="popupMenuMobileBreak"/>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it 1960s.
   `,
   descriptionB: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -60,17 +66,20 @@ const works = [{
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
   technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  'link to live version': '',
-  'link to source': '',
+  'link to live version': 'https://ismaelmastronardi.github.io/',
+  'link to source': 'https://github.com/IsmaelMastronardi/IsmaelMastronardi.github.io',
   identification: '#work3',
 },
 {
   name: 'Multi-Post Stories Gain+Glory',
   nameMenu: 'Keeping track of hundreds of components',
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it 1960s. 
+    <br class="popupMenuMobileBreak"/><br class="popupMenuMobileBreak"/>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it 1960s.
   `,
   descriptionB: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -81,17 +90,20 @@ const works = [{
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
   technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  'link to live version': '',
-  'link to source': '',
+  'link to live version': 'https://ismaelmastronardi.github.io/',
+  'link to source': 'https://github.com/IsmaelMastronardi/IsmaelMastronardi.github.io',
   identification: '#work4',
 },
 {
   name: 'Multi-Post Stories Gain+Glory',
   nameMenu: 'Keeping track of hundreds of components',
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it 1960s. 
+    <br class="popupMenuMobileBreak"/><br class="popupMenuMobileBreak"/>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it 1960s.
   `,
   descriptionB: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -102,17 +114,20 @@ const works = [{
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
   technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  'link to live version': '',
-  'link to source': '',
+  'link to live version': 'https://ismaelmastronardi.github.io/',
+  'link to source': 'https://github.com/IsmaelMastronardi/IsmaelMastronardi.github.io',
   identification: '#work5',
 },
 {
   name: 'Multi-Post Stories Gain+Glory',
   nameMenu: 'Keeping track of hundreds of components',
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it 1960s. 
+    <br class="popupMenuMobileBreak"/><br class="popupMenuMobileBreak"/>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it 1960s.
   `,
   descriptionB: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -123,10 +138,10 @@ const works = [{
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
   technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  linkToLiveVersion: '',
-  linkToSource: '',
+  'link to live version': 'https://ismaelmastronardi.github.io/',
+  'link to source': 'https://github.com/IsmaelMastronardi/IsmaelMastronardi.github.io',
   identification: '#work6',
-},
+}
 ];
 
 const workSection = document.querySelector('#newWorkSection');
@@ -165,12 +180,22 @@ function createPopupMenu(obj) {
   popupDesktopImg.src = obj.featureImageDesktop;
   const popupMenuTitle = document.querySelector('#popupMenuTitle');
   popupMenuTitle.innerText = obj.nameMenu;
-  const mobileMenuBtn1 = document.querySelector('#mobileMenuBtn1');
-  mobileMenuBtn1.innerText = obj.technologies[0];
-  const mobileMenuBtn2 = document.querySelector('#mobileMenuBtn2');
-  mobileMenuBtn2.innerText = obj.technologies[1];
-  const mobileMenuBtn3 = document.querySelector('#mobileMenuBtn3');
-  mobileMenuBtn3.innerText = obj.technologies[2];
+  const seeLiveDesktop = document.querySelector('#seeLiveDesktop');
+  seeLiveDesktop.href = obj['link to live version'];
+  const seeSourceDesktop = document.querySelector('#seeSourceDesktop');
+  seeSourceDesktop.href = obj['link to source'];
+  const seeLiveMobile = document.querySelector('#seeLiveMobile');
+  seeLiveMobile.href = obj['link to live version'];
+  const seeSourceMobile = document.querySelector('#seeSourceMobile');
+  seeSourceMobile.href = obj['link to source'];
+
+  const mobileBtnList = document.querySelector('#mobileBtnList');
+  for (let x = 0; x < obj.technologies.length - 1; x++) {
+    const mobileMenuBtn = document.createElement('li');
+    mobileMenuBtn.innerHTML += `<li class="projectListItems">${obj.technologies[x]}</li>`;
+    mobileBtnList.appendChild(mobileMenuBtn);
+  }
+
   const desktopBtnList = document.querySelector('#desktopBtnList');
   for (let i = 0; i < obj.technologiesDesktop.length; i++) {
     const desktopMenuBtn = document.createElement('li');
@@ -188,6 +213,10 @@ function deletePopupMenu() {
   const desktopBtnList = document.querySelector('#desktopBtnList');
   while (desktopBtnList.firstChild) {
     desktopBtnList.removeChild(desktopBtnList.firstChild);
+  }
+  const mobileBtnList = document.querySelector('#mobileBtnList');
+  while (mobileBtnList.firstChild) {
+    mobileBtnList.removeChild(mobileBtnList.firstChild);
   }
   document.body.style.overflow = 'auto';
 }

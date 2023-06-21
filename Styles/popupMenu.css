@@ -85,6 +85,15 @@
   display: none;
 }
 
+.seeLiveBtn,
+.seeSourceBtn {
+margin-bottom: -4px;
+}
+.seeSourceBtn {
+  height: 24px;
+  height: 24px;
+}
+
 @media only screen and (min-width: 768px) {
   .popupMenuBackground {
     background: transparent;
@@ -170,6 +179,12 @@
 
   .popupMenubtn {
     width: 100px;
+    height: 40px;
+    padding: 0;
+  }
+
+  .popupMenuB {
+    width: 130px;
     height: 40px;
     padding: 0;
   }
