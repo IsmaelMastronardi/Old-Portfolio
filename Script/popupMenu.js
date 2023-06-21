@@ -141,10 +141,9 @@ const works = [{
   'link to live version': 'https://ismaelmastronardi.github.io/',
   'link to source': 'https://github.com/IsmaelMastronardi/IsmaelMastronardi.github.io',
   identification: '#work6',
-}
+},
 ];
 
-const workSection = document.querySelector('#newWorkSection');
 const workDiv = document.querySelector('#newWorkDiv');
 
 function createWorkArticle(work) {
@@ -188,16 +187,14 @@ function createPopupMenu(obj) {
   seeLiveMobile.href = obj['link to live version'];
   const seeSourceMobile = document.querySelector('#seeSourceMobile');
   seeSourceMobile.href = obj['link to source'];
-
   const mobileBtnList = document.querySelector('#mobileBtnList');
-  for (let x = 0; x < obj.technologies.length - 1; x++) {
+  for (let x = 0; x < obj.technologies.length - 1; x + 1) {
     const mobileMenuBtn = document.createElement('li');
     mobileMenuBtn.innerHTML += `<li class="projectListItems">${obj.technologies[x]}</li>`;
     mobileBtnList.appendChild(mobileMenuBtn);
   }
-
   const desktopBtnList = document.querySelector('#desktopBtnList');
-  for (let i = 0; i < obj.technologiesDesktop.length; i++) {
+  for (let i = 0; i < obj.technologiesDesktop.length; i + 1) {
     const desktopMenuBtn = document.createElement('li');
     desktopMenuBtn.innerHTML += `<li class="projectListItems" >${obj.technologiesDesktop[i]}</li>`;
     desktopBtnList.appendChild(desktopMenuBtn);
