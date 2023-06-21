@@ -1,6 +1,3 @@
-.alternateDisplay {
-  display: none;
-}
 
 .popupMenuBackground {
   background-color: rgba(193, 199, 208, 1);
@@ -25,6 +22,7 @@
 
 .popupMobilePic {
   margin-top: 20px;
+  height: 200px;
 }
 
 .popupMobilePicDesktop {
@@ -67,7 +65,7 @@
 
 .popupMenuMobileExitBtn {
   position: absolute;
-  top: 31px;
+  top: 28px;
   left: 266px;
   background: none;
   border: none;
@@ -91,7 +89,7 @@
 @media only screen and (min-width: 768px) {
   .popupMenuBackground {
     background: transparent;
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(5px);
   }
 
   .popupMenuDiv {
