@@ -148,11 +148,18 @@ function createWorkArticle(work) {
 window.onload = works.forEach(createWorkArticle);
 
 function createPopupMenu() {
-  const popupMenu = document.createElement('div');
-  popupMenu.innerHTML += `
+  const popupMenu = document.querySelector('#popupMenu');
+  popupMenu.classList.remove('alternateDisplay');
 
-  `;
-  document.body.appendChild(popupMenu)
+
+
+
+  
+}
+
+function deletePopupMenu() {
+  const popupMenu = document.querySelector('#popupMenu');
+  popupMenu.classList.add('alternateDisplay')
 }
 
 const seeBtn = document.getElementById(works[0].identification);
@@ -160,3 +167,12 @@ const seeBtn = document.getElementById(works[0].identification);
 seeBtn.addEventListener('click', () => {
   createPopupMenu();
 });
+
+const popupMenuExitBtn = document.querySelector('#popupMenuExitBtn');
+popupMenuExitBtn.addEventListener('click', ()=>{
+  deletePopupMenu()
+})
+const popupMenuMobileExitBtn = document.querySelector('#popupMenuMobileExitBtn');
+popupMenuMobileExitBtn.addEventListener('click', ()=>{
+  deletePopupMenu()
+})

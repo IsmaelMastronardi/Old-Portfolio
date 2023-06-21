@@ -1,3 +1,7 @@
+.alternateDisplay {
+  display: none;
+}
+
 .popupMenuBackground {
   background-color: rgba(193, 199, 208, 1);
   position: fixed;
@@ -148,11 +152,12 @@
    display: none;
   }
 
-  .popupListDesktopGreen {
+  .popupListDesktop {
     margin-left: 20px;
+    display: inherit;
   }
 
-  .popupListDesktop {
+  .popupListDesktopGreen {
     flex: 1fr;
     display: inherit;
     margin-left: 30px;
