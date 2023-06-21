@@ -1,4 +1,3 @@
-
 const works = [{
   name: 'Multi-Post Stories Gain+Glory',
   nameMenu: 'Keeping track of hundreds of components',
@@ -18,7 +17,7 @@ const works = [{
   featuredImage: './assets/images/popupMenu/popUpMenuMobile.png',
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
-  technologiesDesktop : ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+  technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   'link to live version': '',
   'link to source': '',
   identification: '#work1',
@@ -39,7 +38,7 @@ const works = [{
   featuredImage: './assets/images/popupMenu/popUpMenuMobile.png',
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
-  technologiesDesktop : ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+  technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   'link to live version': '',
   'link to source': '',
   identification: '#work2',
@@ -60,7 +59,7 @@ const works = [{
   featuredImage: './assets/images/popupMenu/popUpMenuMobile.png',
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
-  technologiesDesktop : ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+  technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   'link to live version': '',
   'link to source': '',
   identification: '#work3',
@@ -81,7 +80,7 @@ const works = [{
   featuredImage: './assets/images/popupMenu/popUpMenuMobile.png',
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
-  technologiesDesktop : ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+  technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   'link to live version': '',
   'link to source': '',
   identification: '#work4',
@@ -102,7 +101,7 @@ const works = [{
   featuredImage: './assets/images/popupMenu/popUpMenuMobile.png',
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
-  technologiesDesktop : ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+  technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   'link to live version': '',
   'link to source': '',
   identification: '#work5',
@@ -123,7 +122,7 @@ const works = [{
   featuredImage: './assets/images/popupMenu/popUpMenuMobile.png',
   featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
-  technologiesDesktop : ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+  technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   linkToLiveVersion: '',
   linkToSource: '',
   identification: '#work6',
@@ -161,46 +160,48 @@ function createPopupMenu(obj) {
   const popupMenu = document.querySelector('#popupMenu');
   popupMenu.classList.remove('alternateDisplay');
   const popupMobileImg = document.querySelector('#popupMobileImg');
-  popupMobileImg.src = obj['featuredImage'];
+  popupMobileImg.src = obj.featuredImage;
   const popupDesktopImg = document.querySelector('#popupDesktopImg');
-  popupDesktopImg.src = obj['featureImageDesktop'];
+  popupDesktopImg.src = obj.featureImageDesktop;
   const popupMenuTitle = document.querySelector('#popupMenuTitle');
-  popupMenuTitle.innerText = obj['nameMenu'];
+  popupMenuTitle.innerText = obj.nameMenu;
   const mobileMenuBtn1 = document.querySelector('#mobileMenuBtn1');
-  mobileMenuBtn1.innerText = obj['technologies'][0];
+  mobileMenuBtn1.innerText = obj.technologies[0];
   const mobileMenuBtn2 = document.querySelector('#mobileMenuBtn2');
-  mobileMenuBtn2.innerText = obj['technologies'][1];
+  mobileMenuBtn2.innerText = obj.technologies[1];
   const mobileMenuBtn3 = document.querySelector('#mobileMenuBtn3');
-  mobileMenuBtn3.innerText = obj['technologies'][2];
-  const desktopMenuBtn1 = document.querySelector('#desktopMenuBtn1');
-  desktopMenuBtn1.innerText = obj['technologiesDesktop'][0];
-  const desktopMenuBtn2 = document.querySelector('#desktopMenuBtn2');
-  desktopMenuBtn2.innerText = obj['technologiesDesktop'][1];
-  const desktopMenuBtn3 = document.querySelector('#desktopMenuBtn3');
-  desktopMenuBtn3.innerText = obj['technologiesDesktop'][2];
-  const desktopMenuBtn4 = document.querySelector('#desktopMenuBtn4');
-  desktopMenuBtn4.innerText = obj['technologiesDesktop'][3];
-  const desktopMenuBtn5 = document.querySelector('#desktopMenuBtn5');
-  desktopMenuBtn5.innerText = obj['technologiesDesktop'][4];
+  mobileMenuBtn3.innerText = obj.technologies[2];
+  const desktopBtnList = document.querySelector('#desktopBtnList');
+  for (let i = 0; i < obj.technologiesDesktop.length; i++) {
+    const desktopMenuBtn = document.createElement('li');
+    desktopMenuBtn.innerHTML += `<li class="projectListItems" >${obj.technologiesDesktop[i]}</li>`;
+    desktopBtnList.appendChild(desktopMenuBtn);
+  }
   const desktopDescription = document.querySelector('#mobilePopupDescription');
-  desktopDescription.innerHTML = obj['description'];
+  desktopDescription.innerHTML = obj.description;
+  document.body.style.overflow = 'hidden';
 }
 
 function deletePopupMenu() {
   const popupMenu = document.querySelector('#popupMenu');
-  popupMenu.classList.add('alternateDisplay')
+  popupMenu.classList.add('alternateDisplay');
+  const desktopBtnList = document.querySelector('#desktopBtnList');
+  while (desktopBtnList.firstChild) {
+    desktopBtnList.removeChild(desktopBtnList.firstChild);
+  }
+  document.body.style.overflow = 'auto';
 }
-works.forEach((work) =>{
+works.forEach((work) => {
   const seeProject = document.getElementById(work.identification);
   seeProject.addEventListener('click', () => {
     createPopupMenu(work);
   });
-})
+});
 const popupMenuExitBtn = document.querySelector('#popupMenuExitBtn');
-popupMenuExitBtn.addEventListener('click', ()=>{
-  deletePopupMenu()
-})
+popupMenuExitBtn.addEventListener('click', () => {
+  deletePopupMenu();
+});
 const popupMenuMobileExitBtn = document.querySelector('#popupMenuMobileExitBtn');
-popupMenuMobileExitBtn.addEventListener('click', ()=>{
-  deletePopupMenu()
-})
+popupMenuMobileExitBtn.addEventListener('click', () => {
+  deletePopupMenu();
+});

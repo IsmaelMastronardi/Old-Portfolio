@@ -70,7 +70,7 @@ h2 {
 .greyProjectButtons {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 12px;
   margin-bottom: 29px;
   padding: 0;
   list-style-type: none;
