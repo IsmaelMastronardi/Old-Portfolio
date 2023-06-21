@@ -27,6 +27,7 @@
   display: none;
 }
 
+.popupMenuTitleDiv,
 .popupMenuTitle {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
@@ -55,6 +56,30 @@
   width: 311px;
 }
 
+.popupListDesktopGreen,
+.popupListDesktop {
+  display: none;
+}
+
+.popupMenuExitBtn {
+  display: flex;
+  align-self: end;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.popupMenuMobileExitBtn {
+  position: absolute;
+  top: 31px;
+  left: 266px;
+  background: none;
+  border: none;
+  padding: 10px;
+}
+
+.popupMenuExitBtn {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
   .popupMenuBackground {
@@ -71,17 +96,22 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  .popupMenuExitBtn {
+    display: flex;
+    align-self: end;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
   .popupMobilePic {
     display: none;
   }
 
   .popupMobilePicDesktop {
     width: 95%;
-  }
-  
-  .popupMobilePicDesktop {
     display: initial;
-    margin-top: 40px;
+    margin-top: 10px;
   }
 
   .popupMobileDescription {
@@ -89,25 +119,53 @@
     margin-right: 6px;
   }
 
+  .popupMenuTitleDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+    justify-self: center;
+  }
+
   .popupMenuTitle {
+    flex: 1fr;
     display: flex;
     align-self: start;
-    margin-left: 20px;
   }
 
   .greyList {
     align-self: start;
-    margin-left: 20px;
   }
+
   .popupMobilePic,
   .popupMenuTitle,
   .popupMobileDescription {
     width: 95%;
-  } 
+    margin-bottom: 30px;
+  }
+
+  .popupListMobile {
+   display: none;
+  }
+
+  .popupListDesktopGreen {
+    margin-left: 20px;
+  }
+
+  .popupListDesktop {
+    flex: 1fr;
+    display: inherit;
+    margin-left: 30px;
+    margin-right: 28px;
+  }
 
   .popupMenuMobileBreak {
     display: none;
   }
 
-  
+  .popupMenubtn {
+    width: 100px;
+    height: 40px;
+    padding: 0;
+  }
 }
