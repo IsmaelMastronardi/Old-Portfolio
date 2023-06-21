@@ -1,0 +1,113 @@
+.popupMenuBackground {
+  background-color: rgba(193, 199, 208, 1);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  overflow-y: scroll;
+}
+
+.popupMenuDiv {
+  background-color: white;
+  margin: 16px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.popupMobilePic {
+  margin-top: 20px;
+}
+
+.popupMobilePicDesktop {
+  display: none;
+}
+
+.popupMenuTitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  color: rgba(23, 43, 77, 1);
+}
+
+.popupListMobile {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.greyList {
+  margin-left: -50px;
+}
+
+.popupMobileDescription { 
+  margin: 0;
+}
+
+.popupMobilePic,
+.popupMenuTitle,
+.popupMobileDescription {
+  width: 311px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .popupMenuBackground {
+    background: transparent;
+    backdrop-filter: blur(100px);
+  }
+
+  .popupMenuDiv {
+    border: 1px solid;
+    border-color: rgba(235, 236, 240, 1);
+    max-width: 920px;
+    margin: auto;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .popupMobilePic {
+    display: none;
+  }
+
+  .popupMobilePicDesktop {
+    width: 95%;
+  }
+  
+  .popupMobilePicDesktop {
+    display: initial;
+    margin-top: 40px;
+  }
+
+  .popupMobileDescription {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .popupMenuTitle {
+    display: flex;
+    align-self: start;
+    margin-left: 20px;
+  }
+
+  .greyList {
+    align-self: start;
+    margin-left: 20px;
+  }
+  .popupMobilePic,
+  .popupMenuTitle,
+  .popupMobileDescription {
+    width: 95%;
+  } 
+
+  .popupMenuMobileBreak {
+    display: none;
+  }
+
+  
+}

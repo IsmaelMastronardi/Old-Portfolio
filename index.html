@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="Styles/form.css">
     <link rel="stylesheet" href="Styles/footer.css">
     <link rel="stylesheet" href="Styles/mobileMenu.css">
+    <link rel="stylesheet" href="Styles/popupMenu.css">
     <link rel="preconnect" href="Styles/https://fonts.googleapis.com" />
     <link
       rel="preconnect"
@@ -25,6 +26,33 @@
     />
   </head>
   <body>
+    <div class="popupMenuBackground">
+      <div class="popupMenuDiv">
+        <img src="./assets/images/popupMenu/popUpMenuMobile.png" class="popupMobilePic">
+        <img src="./assets/images/popupMenu/popUpMenuDesktop.png" class="popupMobilePicDesktop">
+        <h3 class="popupMenuTitle">Keeping track of hundreds of components</h3>
+        <ul class="greyProjectButtons popupListMobile greyList">
+          <li class="projectListItems">Ruby on Rails</li>
+          <li class="projectListItems">CSS</li>
+          <li class="projectListItems">JavaScript</li>
+        </ul>
+        <p class="popupMobileDescription">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+           when an unknown printer took a galley of type and scrambled it 1960s.
+          <br class="popupMenuMobileBreak"/><br class="popupMenuMobileBreak"/>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it 1960s.
+        </p>
+        <ul class="greyProjectButtons popupListMobile popupListOrder">
+          <li class="LinkButton">See live</li>
+          <li class="LinkButton">See Source</li>
+        </ul>
+      </div>
+    </div>
+
+
     <nav class="toolbar">
       <button class="hamburgerMenu" id="mobileMenuBtn"></button>
     </nav>
@@ -97,7 +125,6 @@
         </ul>
         <button class="downArrow"></button>
       </section>
-      
       <section  id="newWorkSection" class="myProjects">
         <div class="workSectionTitle">
           <h2>My Recent <br class="worksBreak"/>Works</h2>
@@ -106,7 +133,6 @@
           </div>
         </div>
         <div class="worksSection" id="newWorkDiv">
-          
         </div>
       </section>
       <section class="aboutMeSection" id="about">
