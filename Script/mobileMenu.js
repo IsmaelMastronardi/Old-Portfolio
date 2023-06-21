@@ -22,7 +22,7 @@ function createMenuElements(menu) {
   mobileExitButton.addEventListener('click', removeMenu);
   const menuList = document.createElement('ul');
   menuList.classList.add('mobileMenuList');
-  addListItem(menuList, 'Portfolio', '#myWorks');
+  addListItem(menuList, 'Portfolio', '#newWorkSection');
   addListItem(menuList, 'About', '#about');
   addListItem(menuList, 'Contact', '#contact');
   menu.appendChild(mobileExitButton);
