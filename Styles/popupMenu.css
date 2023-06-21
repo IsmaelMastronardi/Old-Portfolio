@@ -1,0 +1,183 @@
+
+.popupMenuBackground {
+  background-color: rgba(193, 199, 208, 1);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  overflow-y: scroll;
+}
+
+.popupMenuDiv {
+  background-color: white;
+  margin: 16px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.popupMobilePic {
+  margin-top: 20px;
+  height: 200px;
+}
+
+.popupMobilePicDesktop {
+  display: none;
+}
+
+.popupMenuTitleDiv,
+.popupMenuTitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  color: rgba(23, 43, 77, 1);
+}
+
+.popupListMobile {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.greyList {
+  margin-left: -50px;
+}
+
+.popupMobileDescription {
+  margin: 0;
+}
+
+.popupMobilePic,
+.popupMenuTitle,
+.popupMobileDescription {
+  width: 311px;
+}
+
+.popupListDesktopGreen,
+.popupListDesktop {
+  display: none;
+}
+
+.popupMenuMobileExitBtn {
+  position: absolute;
+  top: 28px;
+  left: 266px;
+  background: none;
+  border: none;
+  padding: 10px;
+}
+
+.popupMenuExitBtn {
+  display: none;
+}
+
+.seeLiveBtn,
+.seeSourceBtn {
+  margin-bottom: -4px;
+}
+
+.seeSourceBtn {
+  height: 24px;
+  width: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .popupMenuBackground {
+    background: transparent;
+    backdrop-filter: blur(5px);
+  }
+
+  .popupMenuDiv {
+    border: 1px solid;
+    border-color: rgba(235, 236, 240, 1);
+    max-width: 920px;
+    margin: auto;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .popupMenuExitBtn {
+    display: flex;
+    align-self: end;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .popupMobilePic {
+    display: none;
+  }
+
+  .popupMobilePicDesktop {
+    width: 95%;
+    display: initial;
+    margin-top: 10px;
+  }
+
+  .popupMobileDescription {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .popupMenuTitleDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .popupMenuTitle {
+    flex: 1fr;
+    display: flex;
+    align-self: start;
+  }
+
+  .greyList {
+    align-self: start;
+  }
+
+  .popupMobilePic,
+  .popupMenuTitle,
+  .popupMobileDescription {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+
+  .popupListMobile {
+    display: none;
+  }
+
+  .popupListDesktop {
+    margin-left: 20px;
+    display: inherit;
+  }
+
+  .popupListDesktopGreen {
+    flex: 1fr;
+    display: inherit;
+    margin-left: 30px;
+    margin-right: 28px;
+  }
+
+  .popupMenuMobileBreak {
+    display: none;
+  }
+
+  .popupMenubtn {
+    width: 100px;
+    height: 40px;
+    padding: 0;
+  }
+
+  .popupMenuB {
+    width: 130px;
+    height: 40px;
+    padding: 0;
+  }
+}

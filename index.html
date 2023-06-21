@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="Styles/form.css">
     <link rel="stylesheet" href="Styles/footer.css">
     <link rel="stylesheet" href="Styles/mobileMenu.css">
+    <link rel="stylesheet" href="Styles/popupMenu.css">
     <link rel="preconnect" href="Styles/https://fonts.googleapis.com" />
     <link
       rel="preconnect"
@@ -33,7 +34,7 @@
         <nav class="desktopNav">
           <ul class="desktopNavList">
             <li class="desktopNavListItem">
-              <a class="desktopNavLink" href="#myWorks">Portfolio</a>
+              <a class="desktopNavLink" href="#newWorkSection">Portfolio</a>
             </li>
             <li class="desktopNavListItem">
               <a class="desktopNavLink" href="#about">About</a>
@@ -97,124 +98,15 @@
         </ul>
         <button class="downArrow"></button>
       </section>
-      <section id="myWorks" class="myProjects">
+      <section  id="newWorkSection" class="myProjects">
         <div class="workSectionTitle">
           <h2>My Recent <br class="worksBreak"/>Works</h2>
           <div>
-            <img
-              src="assets/images/WorksSection/Indicator.png"
-              class="indicatorIcon"
-            />
+            <img src="assets/images/WorksSection/Indicator.png"class="indicatorIcon"/>
           </div>
         </div>
-        <div class="worksSection">
-          <article class="project">
-            <div class="projectPicture">
-              <img />
-            </div>
-            <div class="projectInfo">
-              <h3 class="projectTitle">Multi-Post Stories <br />Gain+Glory</h3>
-              <ul class="greyProjectButtons">
-                <li class="projectListItems">Ruby on Rails</li>
-                <li class="projectListItems">CSS</li>
-                <li class="projectListItems">javaScript</li>
-                <li class="projectListItems">HTML</li>
-              </ul>
-              <div class="greenProjectButton">
-                <button class="LinkButton">See project</button>
-              </div>
-            </div>
-          </article>
-          <article class="project">
-            <div class="projectPicture">
-              <img />
-            </div>
-            <div class="projectInfo">
-              <h3 class="projectTitle">Multi-Post Stories <br />Gain+Glory</h3>
-              <ul class="greyProjectButtons">
-                <li class="projectListItems">Ruby on Rails</li>
-                <li class="projectListItems">CSS</li>
-                <li class="projectListItems">javaScript</li>
-                <li class="projectListItems">HTML</li>
-              </ul>
-              <div class="greenProjectButton">
-                <button class="LinkButton">See project</button>
-              </div>
-            </div>
-          </article>
-          <article class="project">
-            <div class="projectPicture">
-              <img />
-            </div>
-            <div class="projectInfo">
-              <h3 class="projectTitle">Multi-Post Stories <br />Gain+Glory</h3>
-              <ul class="greyProjectButtons">
-                <li class="projectListItems">Ruby on Rails</li>
-                <li class="projectListItems">CSS</li>
-                <li class="projectListItems">javaScript</li>
-                <li class="projectListItems">HTML</li>
-              </ul>
-              <div class="greenProjectButton">
-                <button class="LinkButton">See project</button>
-              </div>
-            </div>
-          </article>
-          <article class="project">
-            <div class="projectPicture">
-              <img />
-            </div>
-            <div class="projectInfo">
-              <h3 class="projectTitle">Multi-Post Stories <br />Gain+Glory</h3>
-              <ul class="greyProjectButtons">
-                <li class="projectListItems">Ruby on Rails</li>
-                <li class="projectListItems">CSS</li>
-                <li class="projectListItems">javaScript</li>
-                <li class="projectListItems">HTML</li>
-              </ul>
-              <div class="greenProjectButton">
-                <button class="LinkButton">See project</button>
-              </div>
-            </div>
-          </article>
-          <article class="project">
-            <div class="projectPicture">
-              <img />
-            </div>
-            <div class="projectInfo">
-              <h3 class="projectTitle">Multi-Post Stories <br />Gain+Glory</h3>
-              <ul class="greyProjectButtons">
-                <li class="projectListItems">Ruby on Rails</li>
-                <li class="projectListItems">CSS</li>
-                <li class="projectListItems">javaScript</li>
-                <li class="projectListItems">HTML</li>
-              </ul>
-              <div class="greenProjectButton">
-                <button class="LinkButton">See project</button>
-              </div>
-            </div>
-          </article>
-          <article class="project">
-            <div class="projectPicture">
-              <img />
-            </div>
-            <div class="projectInfo">
-              <h3 class="projectTitle">Multi-Post Stories <br />Gain+Glory</h3>
-              <ul class="greyProjectButtons">
-                <li class="projectListItems">Ruby on Rails</li>
-                <li class="projectListItems">CSS</li>
-                <li class="projectListItems">javaScript</li>
-                <li class="projectListItems">HTML</li>
-              </ul>
-              <div class="greenProjectButton">
-                <button class="LinkButton">See project</button>
-              </div>
-            </div>
-          </article>
+        <div class="worksSection" id="newWorkDiv">
         </div>
-        <!--
-                artilces have background instead of image beacuse the template has no images
-            -->
-
       </section>
       <section class="aboutMeSection" id="about">
         <article class="aboutMeArticle">
@@ -379,8 +271,7 @@
         </li>
       </ul>
     </footer>
+    <script src="./Script/mobileMenu.js"></script>
+    <script src="./Script/popupMenu.js"></script>
   </body>
-  <script 
-  src="mobileMenu.js"
-  ></script>
 </html>
