@@ -50,7 +50,7 @@
   margin-left: -50px;
 }
 
-.popupMobileDescription { 
+.popupMobileDescription {
   margin: 0;
 }
 
@@ -63,13 +63,6 @@
 .popupListDesktopGreen,
 .popupListDesktop {
   display: none;
-}
-
-.popupMenuExitBtn {
-  display: flex;
-  align-self: end;
-  margin-right: 20px;
-  margin-top: 20px;
 }
 
 .popupMenuMobileExitBtn {
@@ -87,11 +80,12 @@
 
 .seeLiveBtn,
 .seeSourceBtn {
-margin-bottom: -4px;
+  margin-bottom: -4px;
 }
+
 .seeSourceBtn {
   height: 24px;
-  height: 24px;
+  width: 24px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -158,7 +152,7 @@ margin-bottom: -4px;
   }
 
   .popupListMobile {
-   display: none;
+    display: none;
   }
 
   .popupListDesktop {
