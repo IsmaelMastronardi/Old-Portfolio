@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="Styles/footer.css">
     <link rel="stylesheet" href="Styles/mobileMenu.css">
     <link rel="stylesheet" href="Styles/popupMenu.css">
+    <link rel="stylesheet" href="Styles/formValidation.css">
     <link rel="preconnect" href="Styles/https://fonts.googleapis.com" />
     <link
       rel="preconnect"
@@ -179,35 +180,40 @@
           I'm always interested in hearing <br class="formBreak"/>about new projects, so if you'd<br class="formBreak"/> like
           to chat please get in touch.
         </h2>
-        <form action="https://formspree.io/f/xnqykbkb" method="post">
+        <form action="https://formspree.io/f/xnqykbkb" method="post" id="form">
           <ul class="formList">
             <li class="formItem">
               <label for="name"></label>
               <input
+                required
                 type="text"
                 name="userName"
                 id="name"
                 class="formName"
-                required
                 placeholder="Full name"
                 maxlength="30"
               />
             </li>
             <li class="formItem">
-              <label for="mail"></label>
-              <input
-                type="email"
-                name="userEmail"
-                id="mail"
-                class="formEmail"
-                required
-                placeholder="Email address"
-              />
+                <label for="mail"></label>
+                <input
+                  required
+                  type="email"
+                  name="userEmail"
+                  id="mail"
+                  class="formEmail"
+                  placeholder="Email address"       
+                />             
             </li>
             <li class="formItem">
               <label for="text"></label>
-              <textarea name="userText" id="text" class="formText" required placeholder="Hey I’d like to connect to..."
-                maxlength="500"cols="41"rows="5"></textarea>
+              <textarea 
+                required
+                name="userText" 
+                id="text" 
+                class="formText" 
+                placeholder="Hey I’d like to connect to..."
+                cols="41"rows="5"></textarea>
             </li>
             <li class="formItem">
               <button type="submit" class="formButton">
@@ -273,5 +279,6 @@
     </footer>
     <script src="./Script/mobileMenu.js"></script>
     <script src="./Script/popupMenu.js"></script>
+    <script src="./Script/formValidation.js"></script>
   </body>
 </html>
