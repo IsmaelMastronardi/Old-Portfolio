@@ -231,13 +231,13 @@ function createPopupMenu(obj) {
   `;
   document.body.appendChild(menu);
   const mobileBtnList = document.querySelector('#mobileBtnList');
-  for (let x = 0; x < obj.technologies.length - 1; x += 1) {
+  for (let x = 0; x < obj.technologies.length - 1; x + 1) {
     const mobileMenuBtn = document.createElement('li');
     mobileMenuBtn.innerHTML += `<li class="projectListItems">${obj.technologies[x]}</li>`;
     mobileBtnList.appendChild(mobileMenuBtn);
   }
   const desktopBtnList = document.querySelector('#desktopBtnList');
-  for (let i = 0; i < obj.technologiesDesktop.length; i += 1) {
+  for (let i = 0; i < obj.technologiesDesktop.length; i + 1) {
     const desktopMenuBtn = document.createElement('li');
     desktopMenuBtn.innerHTML += `<li class="projectListItems" >${obj.technologiesDesktop[i]}</li>`;
     desktopBtnList.appendChild(desktopMenuBtn);
