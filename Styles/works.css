@@ -121,6 +121,10 @@ h2 {
   background-color: rgba(0, 133, 82, 1);
 }
 
+.projectsCardsImg {
+width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .indicatorIcon {
     display: none;

@@ -165,6 +165,9 @@
     margin-right: 28px;
   }
 
+  .popupMenuMobileExitBtn {
+    display: none;
+  }
   .popupMenuMobileBreak {
     display: none;
   }

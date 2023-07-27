@@ -1,5 +1,5 @@
 const works = [{
-  name: 'Multi-Post Stories Gain+Glory',
+  name: 'Cordoba Festival Webpage',
   nameMenu: 'Keeping track of hundreds of components',
   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -14,12 +14,12 @@ const works = [{
    when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum 
    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
-  featuredImage: './assets/images/popupMenu/popUpMenuMobile.png',
-  featureImageDesktop: './assets/images/popupMenu/popUpMenuDesktop.png',
+  featuredImage: './assets/images/popupMenu/projectsImgs/concertPageMobile.png',
+  featureImageDesktop: './assets/images/popupMenu/projectsImgs/concertPage.png',
   technologies: ['Ruby on Rails', 'CSS', 'javaScript', 'HTML'],
   technologiesDesktop: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  'link to live version': 'https://ismaelmastronardi.github.io/',
-  'link to source': 'https://github.com/IsmaelMastronardi/IsmaelMastronardi.github.io',
+  'link to live version': 'https://ismaelmastronardi.github.io/Capstone1/',
+  'link to source': 'https://github.com/IsmaelMastronardi/Capstone1',
   identification: '#work1',
 },
 {
@@ -151,10 +151,10 @@ function createWorkArticle(work) {
   workArticle.classList.add('project');
   workArticle.innerHTML += `
   <div class="projectPicture">
-    <img />
+    <img src="${work.featuredImage}" class="projectsCardsImg"/>
   </div>
   <div class="projectInfo">
-    <h3 class="projectTitle">Multi-Post Stories <br />Gain+Glory</h3>
+    <h3 class="projectTitle">${work.name}</h3>
     <ul class="greyProjectButtons">
       <li class="projectListItems">${work.technologies[0]}</li>
       <li class="projectListItems">${work.technologies[1]}</li>
